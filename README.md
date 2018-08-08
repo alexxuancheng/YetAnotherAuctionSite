@@ -1,4 +1,4 @@
-# YetAnotherAuctionSite-YAAS
+# YetAnotherAuctionSite-YAAS (Django)
 
 YAAS is a web application and a web service to create and participate in auctions. Examples of popular
 auction​ ​sites​ ​include​ ​​ebay.com​​ ​and​ ​​huuto.net​.
