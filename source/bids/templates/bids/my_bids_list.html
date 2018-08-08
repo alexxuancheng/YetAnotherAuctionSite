@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<div>
+	<h2>{% trans 'MyBids' %}</h2>
+	{% for obj in object_list %}
+	<li><a href="{% url 'bid-create' pk=obj.auction.pk version=obj.auction.version %}">{{ obj.auction.name }}</a></li>
+	{% endfor %}
+</div>
+{% endblock %}

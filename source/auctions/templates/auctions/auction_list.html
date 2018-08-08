@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<div>	
+	<form class='form' method='GET' action='.'>
+		<input type='text' placeholder="Search.." name='q' value='{{ request.GET.q }}'>
+		<button class='btn btn-default' type='submit'>{% trans 'Search' %}</button>
+	</form>
+
+	{% for obj in object_list %}
+		{% if obj.activated %}
+		<li><a href="{% url 'bid-create' pk=obj.pk  version=obj.version %}">{{ obj.name }}</a>
+		<!-- <p>{{obj.description}}</p> -->
+		</li>
+		{% endif %}
+	{% endfor %}
+	<p class='just_test'>just_test</p>
+</div>
+{% endblock %}

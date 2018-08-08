@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<h1>{% trans 'Banned Auctions' %}</h1>
+{% for obj in object_list %}
+<li>{{ obj.name }}[ Banned ]</li>
+{% endfor %}
+{% endblock %}

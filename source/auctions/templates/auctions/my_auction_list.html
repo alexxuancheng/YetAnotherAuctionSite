@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<h1>{% trans 'MyAuctions' %}  
+	<a href="{% url 'auction-create' %}">
+		<small>{% trans 'CreateAuction' %}</small>
+	</a>
+</h1>
+
+{% for obj in object_list %}
+	<!-- {% if not obj.activated and not obj.banned and not obj.due and not adjudicated %}  -->
+	<li><a href="{% url 'my-auctions-detail-update' pk=obj.pk %}">{{ obj.name }} [Inactivated]</a></li>
+	<!-- {% endif %} -->
+
+	{% if obj.banned  %} 
+	<li>
+		<a href="{% url 'my-auctions-detail-update' pk=obj.pk %}">{{ obj.name }} [banned]</a>
+	</li>
+	{% endif %}
+
+	{% if obj.due  %} 
+	<li>
+		<a href="{% url 'my-auctions-detail-update' pk=obj.pk %}">{{ obj.name }} [due]</a>
+	</li>
+	{% endif %}
+
+	{% if obj.adjudicated  %} 
+	<li>
+		<a href="{% url 'my-auctions-detail-update' pk=obj.pk %}">{{ obj.name }} [adjudicated]</a>
+	</li>
+	{% endif %}
+
+	{% if obj.activated %}  
+	<li>
+		<a href="{% url 'my-auctions-detail-update' pk=obj.pk %}">{{ obj.name }}</a>
+	</li>
+	{% endif %}
+{% endfor %}
+{% endblock %}

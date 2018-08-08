@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<h1>{{ object.name }}</h1>
+<p>{% trans 'Description' %}: {{ object.description }}</p>
+<p>{% trans 'Starting Bid' %}: {{ object.minprice }}</p>
+<p>{% trans 'Bid Times' %}: {{ object.bid_times }}</p>
+<p>{% trans 'Deadline' %}: {{ object.deadline }}</p>
+
+<hr> 
+<h2>{% trans 'Update Auction Description' %}</h2>
+<form method='POST' action="" > {% csrf_token %}
+    {{ form.as_p }}
+    <button type='submit'>{% trans 'Update' %}</button>
+</form>
+<br/>
+<p>{% trans 'Last Updated' %}: {{ object.updated }}</p>
+{% endblock %}

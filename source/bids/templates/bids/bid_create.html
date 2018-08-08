@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head_title %}YAAS{% endblock %}
+
+{% block content %}
+<h1>{{ auction.name }}{% if auction.banned %}<small> [banned]</small>{% endif %}</h1>
+<p>Description: {{ auction.description }}</p>
+<p>Starting Bid: {{ auction.minprice }} €</p>
+<p>Deadline: {{ auction.deadline }}</p>
+<p>Time Left: {{ auction.deadline|timeuntil }}</p>
+{% if current_bid %}
+<p>Current Bidder: {{ current_bid.bidder}}</p>
+{% endif %}
+
+<!-- <p><b>Bid_times: {{ object.bid_times }}</b></p> -->
+<h3>Current_bid: 
+	<span id='current_bid'>
+		{% if current_bid_price %}
+		{{ current_bid_price }}
+		{% elif not current_bid_price %}
+		{{ auction.minprice }}
+		{% endif %}
+
+	</span> €  
+	<small>[ {{ bid_times }} bids] </small></h3>
+<p>Approximately <b>USD $ <span id='usd'></span></b></p>
+<p>Approximately <b>CNY ¥ <span id='cny'></span></b></p>
+
+<hr>
+<div class='container'>
+	{% if request.user.username != auction.seller.username and auction.activated %}
+	<div class='col-sm-6'>
+		<form class='form' method='POST' action=".">{% csrf_token %}
+			{% if messages %}
+			<ul class="messages">
+			    {% for message in messages %}
+			    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+			    {% endfor %}
+			</ul>
+			{% endif %}
+			
+			{{ form.non_field_errors }}
+			<p hidden>
+				<label for='id_auction'></label>
+				{{form.auction}}
+			</p>
+			<p>
+				<label for='id_bid'></label>
+				{{form.bid}}
+				<button class='btn btn-primary' type='submit'>Place Bid</button>
+			</p>			
+			<p>Enter bid more than current bid.</p> 
+			
+		</form>
+	</div>
+	{% endif %}
+
+	{% if request.user.is_superuser %}
+		{% if auction.activated %}
+		<div class='col-sm-6'>		
+			<form 
+				class='form' 
+				method='POST' 
+				action="{% url 'auction-ban' pk=auction.pk %}"
+				onsubmit="return confirm('Are you sure to ban this Auction?')"
+				>{% csrf_token %}
+				<p>The auction does not comply with the usage terms of this site.</p>
+				<button class='btn btn-danger' type='submit'>Ban</button>
+			</form>			
+		</div>
+		{% endif %}	
+	{% endif %}
+
+{% endblock %}
