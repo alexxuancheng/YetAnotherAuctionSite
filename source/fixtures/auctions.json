@@ -1,0 +1,991 @@
+[{
+	"model": "auctions.auction",
+	"pk": 1,
+	"fields": {
+		"seller": 1,
+		"name": "gy_auction_1",
+		"description": "gy_auction_1gy_auction_1gy_auction_1gy_auction_1",
+		"minprice": "5.00",
+		"deadline": "2018-03-20T16:57:47Z",
+		"timestamp": "2018-03-17T16:57:52.577Z",
+		"updated": "2018-03-19T21:20:47.033Z",
+		"version": 1,
+		"activation_key": null,
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 4,
+	"fields": {
+		"seller": 1,
+		"name": "gy_auction_2",
+		"description": "gy_auction_2",
+		"minprice": "4.00",
+		"deadline": "2018-03-25T14:30:59Z",
+		"timestamp": "2018-03-17T18:03:38.332Z",
+		"updated": "2018-03-18T09:00:15.719Z",
+		"version": 0,
+		"activation_key": null,
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 5,
+	"fields": {
+		"seller": 2,
+		"name": "user1_auction_1",
+		"description": "user1_auction_1user1_auction_1user1_auction_1user1_auction_1user1_auction_1user1_auction_1user1_auction_1user1_auction_1",
+		"minprice": "2.00",
+		"deadline": "2018-03-25T14:30:59Z",
+		"timestamp": "2018-03-17T19:22:32.952Z",
+		"updated": "2018-03-17T19:22:42.635Z",
+		"version": 0,
+		"activation_key": null,
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 6,
+	"fields": {
+		"seller": 2,
+		"name": "user1_auction_2",
+		"description": "user1_auction_2user1_auction_2user1_auction_2user1_auction_2user1_auction_2user1_auction_2user1_auction_2",
+		"minprice": "3.00",
+		"deadline": "2018-03-25T14:30:59Z",
+		"timestamp": "2018-03-17T19:22:58.145Z",
+		"updated": "2018-03-19T22:31:37.680Z",
+		"version": 7,
+		"activation_key": null,
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 7,
+	"fields": {
+		"seller": 3,
+		"name": "user2_auction_1",
+		"description": "user2_auction_1user2_auction_1user2_auction_1user2_auction_1user2_auction_1user2_auction_1user2_auction_1user2_auction_1user2_auction_1",
+		"minprice": "4.00",
+		"deadline": "2018-03-25T14:30:59Z",
+		"timestamp": "2018-03-17T19:23:25.742Z",
+		"updated": "2018-03-19T09:35:26.766Z",
+		"version": 0,
+		"activation_key": null,
+		"activated": false,
+		"banned": true,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 210,
+	"fields": {
+		"seller": 307,
+		"name": "test_user_0auction",
+		"description": "test_user_0description",
+		"minprice": "0.10",
+		"deadline": "2018-03-23T10:07:40.097Z",
+		"timestamp": "2018-03-20T10:07:40.097Z",
+		"updated": "2018-03-20T10:07:40.097Z",
+		"version": 0,
+		"activation_key": "1",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 211,
+	"fields": {
+		"seller": 308,
+		"name": "test_user_1auction",
+		"description": "test_user_1description",
+		"minprice": "1.10",
+		"deadline": "2018-03-23T11:07:40.104Z",
+		"timestamp": "2018-03-20T10:07:40.105Z",
+		"updated": "2018-03-20T10:07:40.105Z",
+		"version": 0,
+		"activation_key": "2",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 212,
+	"fields": {
+		"seller": 309,
+		"name": "test_user_2auction",
+		"description": "test_user_2description",
+		"minprice": "2.10",
+		"deadline": "2018-03-23T12:07:40.112Z",
+		"timestamp": "2018-03-20T10:07:40.113Z",
+		"updated": "2018-03-20T10:07:40.113Z",
+		"version": 0,
+		"activation_key": "3",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 213,
+	"fields": {
+		"seller": 310,
+		"name": "test_user_3auction",
+		"description": "test_user_3description",
+		"minprice": "3.10",
+		"deadline": "2018-03-23T13:07:40.119Z",
+		"timestamp": "2018-03-20T10:07:40.120Z",
+		"updated": "2018-03-20T10:07:40.120Z",
+		"version": 0,
+		"activation_key": "4",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 214,
+	"fields": {
+		"seller": 311,
+		"name": "test_user_4auction",
+		"description": "test_user_4description",
+		"minprice": "4.10",
+		"deadline": "2018-03-23T14:07:40.128Z",
+		"timestamp": "2018-03-20T10:07:40.129Z",
+		"updated": "2018-03-20T10:07:40.129Z",
+		"version": 0,
+		"activation_key": "5",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 215,
+	"fields": {
+		"seller": 312,
+		"name": "test_user_5auction",
+		"description": "test_user_5description",
+		"minprice": "5.10",
+		"deadline": "2018-03-23T15:07:40.137Z",
+		"timestamp": "2018-03-20T10:07:40.137Z",
+		"updated": "2018-03-20T10:07:40.137Z",
+		"version": 0,
+		"activation_key": "6",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 216,
+	"fields": {
+		"seller": 313,
+		"name": "test_user_6auction",
+		"description": "test_user_6description",
+		"minprice": "6.10",
+		"deadline": "2018-03-23T16:07:40.145Z",
+		"timestamp": "2018-03-20T10:07:40.145Z",
+		"updated": "2018-03-20T10:07:40.145Z",
+		"version": 0,
+		"activation_key": "7",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 217,
+	"fields": {
+		"seller": 314,
+		"name": "test_user_7auction",
+		"description": "test_user_7description",
+		"minprice": "7.10",
+		"deadline": "2018-03-23T17:07:40.153Z",
+		"timestamp": "2018-03-20T10:07:40.153Z",
+		"updated": "2018-03-20T10:07:40.154Z",
+		"version": 0,
+		"activation_key": "8",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 218,
+	"fields": {
+		"seller": 315,
+		"name": "test_user_8auction",
+		"description": "test_user_8description",
+		"minprice": "8.10",
+		"deadline": "2018-03-23T18:07:40.160Z",
+		"timestamp": "2018-03-20T10:07:40.161Z",
+		"updated": "2018-03-20T10:07:40.161Z",
+		"version": 0,
+		"activation_key": "9",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 219,
+	"fields": {
+		"seller": 316,
+		"name": "test_user_9auction",
+		"description": "test_user_9description",
+		"minprice": "9.10",
+		"deadline": "2018-03-23T19:07:40.168Z",
+		"timestamp": "2018-03-20T10:07:40.169Z",
+		"updated": "2018-03-20T10:07:40.169Z",
+		"version": 0,
+		"activation_key": "10",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 220,
+	"fields": {
+		"seller": 317,
+		"name": "test_user_10auction",
+		"description": "test_user_10description",
+		"minprice": "10.10",
+		"deadline": "2018-03-23T20:07:40.177Z",
+		"timestamp": "2018-03-20T10:07:40.179Z",
+		"updated": "2018-03-20T10:07:40.179Z",
+		"version": 0,
+		"activation_key": "11",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 221,
+	"fields": {
+		"seller": 318,
+		"name": "test_user_11auction",
+		"description": "test_user_11description",
+		"minprice": "11.10",
+		"deadline": "2018-03-23T21:07:40.185Z",
+		"timestamp": "2018-03-20T10:07:40.186Z",
+		"updated": "2018-03-20T10:07:40.186Z",
+		"version": 0,
+		"activation_key": "12",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 222,
+	"fields": {
+		"seller": 319,
+		"name": "test_user_12auction",
+		"description": "test_user_12description",
+		"minprice": "12.10",
+		"deadline": "2018-03-23T22:07:40.191Z",
+		"timestamp": "2018-03-20T10:07:40.192Z",
+		"updated": "2018-03-20T10:07:40.192Z",
+		"version": 0,
+		"activation_key": "13",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 223,
+	"fields": {
+		"seller": 320,
+		"name": "test_user_13auction",
+		"description": "test_user_13description",
+		"minprice": "13.10",
+		"deadline": "2018-03-23T23:07:40.197Z",
+		"timestamp": "2018-03-20T10:07:40.198Z",
+		"updated": "2018-03-20T10:07:40.198Z",
+		"version": 0,
+		"activation_key": "14",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 224,
+	"fields": {
+		"seller": 321,
+		"name": "test_user_14auction",
+		"description": "test_user_14description",
+		"minprice": "14.10",
+		"deadline": "2018-03-24T00:07:40.203Z",
+		"timestamp": "2018-03-20T10:07:40.203Z",
+		"updated": "2018-03-20T10:07:40.203Z",
+		"version": 0,
+		"activation_key": "15",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 225,
+	"fields": {
+		"seller": 322,
+		"name": "test_user_15auction",
+		"description": "test_user_15description",
+		"minprice": "15.10",
+		"deadline": "2018-03-24T01:07:40.208Z",
+		"timestamp": "2018-03-20T10:07:40.209Z",
+		"updated": "2018-03-20T10:07:40.209Z",
+		"version": 0,
+		"activation_key": "16",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 226,
+	"fields": {
+		"seller": 323,
+		"name": "test_user_16auction",
+		"description": "test_user_16description",
+		"minprice": "16.10",
+		"deadline": "2018-03-24T02:07:40.215Z",
+		"timestamp": "2018-03-20T10:07:40.216Z",
+		"updated": "2018-03-20T10:07:40.216Z",
+		"version": 0,
+		"activation_key": "17",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 227,
+	"fields": {
+		"seller": 324,
+		"name": "test_user_17auction",
+		"description": "test_user_17description",
+		"minprice": "17.10",
+		"deadline": "2018-03-24T03:07:40.224Z",
+		"timestamp": "2018-03-20T10:07:40.224Z",
+		"updated": "2018-03-20T10:07:40.224Z",
+		"version": 0,
+		"activation_key": "18",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 228,
+	"fields": {
+		"seller": 325,
+		"name": "test_user_18auction",
+		"description": "test_user_18description",
+		"minprice": "18.10",
+		"deadline": "2018-03-24T04:07:40.232Z",
+		"timestamp": "2018-03-20T10:07:40.233Z",
+		"updated": "2018-03-20T10:07:40.233Z",
+		"version": 0,
+		"activation_key": "19",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 229,
+	"fields": {
+		"seller": 326,
+		"name": "test_user_19auction",
+		"description": "test_user_19description",
+		"minprice": "19.10",
+		"deadline": "2018-03-24T05:07:40.240Z",
+		"timestamp": "2018-03-20T10:07:40.241Z",
+		"updated": "2018-03-20T10:07:40.241Z",
+		"version": 0,
+		"activation_key": "20",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 230,
+	"fields": {
+		"seller": 327,
+		"name": "test_user_20auction",
+		"description": "test_user_20description",
+		"minprice": "20.10",
+		"deadline": "2018-03-24T06:07:40.248Z",
+		"timestamp": "2018-03-20T10:07:40.249Z",
+		"updated": "2018-03-20T10:07:40.249Z",
+		"version": 0,
+		"activation_key": "21",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 231,
+	"fields": {
+		"seller": 328,
+		"name": "test_user_21auction",
+		"description": "test_user_21description",
+		"minprice": "21.10",
+		"deadline": "2018-03-24T07:07:40.257Z",
+		"timestamp": "2018-03-20T10:07:40.258Z",
+		"updated": "2018-03-20T10:07:40.258Z",
+		"version": 0,
+		"activation_key": "22",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 232,
+	"fields": {
+		"seller": 329,
+		"name": "test_user_22auction",
+		"description": "test_user_22description",
+		"minprice": "22.10",
+		"deadline": "2018-03-24T08:07:40.265Z",
+		"timestamp": "2018-03-20T10:07:40.265Z",
+		"updated": "2018-03-20T10:07:40.265Z",
+		"version": 0,
+		"activation_key": "23",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 233,
+	"fields": {
+		"seller": 330,
+		"name": "test_user_23auction",
+		"description": "test_user_23description",
+		"minprice": "23.10",
+		"deadline": "2018-03-24T09:07:40.271Z",
+		"timestamp": "2018-03-20T10:07:40.272Z",
+		"updated": "2018-03-20T10:07:40.272Z",
+		"version": 0,
+		"activation_key": "24",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 234,
+	"fields": {
+		"seller": 331,
+		"name": "test_user_24auction",
+		"description": "test_user_24description",
+		"minprice": "24.10",
+		"deadline": "2018-03-24T10:07:40.279Z",
+		"timestamp": "2018-03-20T10:07:40.280Z",
+		"updated": "2018-03-20T10:07:40.280Z",
+		"version": 0,
+		"activation_key": "25",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 235,
+	"fields": {
+		"seller": 332,
+		"name": "test_user_25auction",
+		"description": "test_user_25description",
+		"minprice": "25.10",
+		"deadline": "2018-03-24T11:07:40.287Z",
+		"timestamp": "2018-03-20T10:07:40.288Z",
+		"updated": "2018-03-20T10:07:40.288Z",
+		"version": 0,
+		"activation_key": "26",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 236,
+	"fields": {
+		"seller": 333,
+		"name": "test_user_26auction",
+		"description": "test_user_26description",
+		"minprice": "26.10",
+		"deadline": "2018-03-24T12:07:40.296Z",
+		"timestamp": "2018-03-20T10:07:40.297Z",
+		"updated": "2018-03-20T10:07:40.297Z",
+		"version": 0,
+		"activation_key": "27",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 237,
+	"fields": {
+		"seller": 334,
+		"name": "test_user_27auction",
+		"description": "test_user_27description",
+		"minprice": "27.10",
+		"deadline": "2018-03-24T13:07:40.306Z",
+		"timestamp": "2018-03-20T10:07:40.306Z",
+		"updated": "2018-03-20T10:07:40.306Z",
+		"version": 0,
+		"activation_key": "28",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 238,
+	"fields": {
+		"seller": 335,
+		"name": "test_user_28auction",
+		"description": "test_user_28description",
+		"minprice": "28.10",
+		"deadline": "2018-03-24T14:07:40.313Z",
+		"timestamp": "2018-03-20T10:07:40.314Z",
+		"updated": "2018-03-20T10:07:40.314Z",
+		"version": 0,
+		"activation_key": "29",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 239,
+	"fields": {
+		"seller": 336,
+		"name": "test_user_29auction",
+		"description": "test_user_29description",
+		"minprice": "29.10",
+		"deadline": "2018-03-24T15:07:40.320Z",
+		"timestamp": "2018-03-20T10:07:40.321Z",
+		"updated": "2018-03-20T10:07:40.321Z",
+		"version": 0,
+		"activation_key": "30",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 240,
+	"fields": {
+		"seller": 337,
+		"name": "test_user_30auction",
+		"description": "test_user_30description",
+		"minprice": "30.10",
+		"deadline": "2018-03-24T16:07:40.328Z",
+		"timestamp": "2018-03-20T10:07:40.329Z",
+		"updated": "2018-03-20T10:07:40.329Z",
+		"version": 0,
+		"activation_key": "31",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 241,
+	"fields": {
+		"seller": 338,
+		"name": "test_user_31auction",
+		"description": "test_user_31description",
+		"minprice": "31.10",
+		"deadline": "2018-03-24T17:07:40.337Z",
+		"timestamp": "2018-03-20T10:07:40.338Z",
+		"updated": "2018-03-20T10:07:40.338Z",
+		"version": 0,
+		"activation_key": "32",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 242,
+	"fields": {
+		"seller": 339,
+		"name": "test_user_32auction",
+		"description": "test_user_32description",
+		"minprice": "32.10",
+		"deadline": "2018-03-24T18:07:40.345Z",
+		"timestamp": "2018-03-20T10:07:40.346Z",
+		"updated": "2018-03-20T10:07:40.346Z",
+		"version": 0,
+		"activation_key": "33",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 243,
+	"fields": {
+		"seller": 340,
+		"name": "test_user_33auction",
+		"description": "test_user_33description",
+		"minprice": "33.10",
+		"deadline": "2018-03-24T19:07:40.353Z",
+		"timestamp": "2018-03-20T10:07:40.354Z",
+		"updated": "2018-03-20T10:07:40.354Z",
+		"version": 0,
+		"activation_key": "34",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 244,
+	"fields": {
+		"seller": 341,
+		"name": "test_user_34auction",
+		"description": "test_user_34description",
+		"minprice": "34.10",
+		"deadline": "2018-03-24T20:07:40.360Z",
+		"timestamp": "2018-03-20T10:07:40.361Z",
+		"updated": "2018-03-20T10:07:40.361Z",
+		"version": 0,
+		"activation_key": "35",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 245,
+	"fields": {
+		"seller": 342,
+		"name": "test_user_35auction",
+		"description": "test_user_35description",
+		"minprice": "35.10",
+		"deadline": "2018-03-24T21:07:40.368Z",
+		"timestamp": "2018-03-20T10:07:40.368Z",
+		"updated": "2018-03-20T10:07:40.368Z",
+		"version": 0,
+		"activation_key": "36",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 246,
+	"fields": {
+		"seller": 343,
+		"name": "test_user_36auction",
+		"description": "test_user_36description",
+		"minprice": "36.10",
+		"deadline": "2018-03-24T22:07:40.375Z",
+		"timestamp": "2018-03-20T10:07:40.376Z",
+		"updated": "2018-03-20T10:07:40.376Z",
+		"version": 0,
+		"activation_key": "37",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 247,
+	"fields": {
+		"seller": 344,
+		"name": "test_user_37auction",
+		"description": "test_user_37description",
+		"minprice": "37.10",
+		"deadline": "2018-03-24T23:07:40.385Z",
+		"timestamp": "2018-03-20T10:07:40.385Z",
+		"updated": "2018-03-20T10:07:40.385Z",
+		"version": 0,
+		"activation_key": "38",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 248,
+	"fields": {
+		"seller": 345,
+		"name": "test_user_38auction",
+		"description": "test_user_38description",
+		"minprice": "38.10",
+		"deadline": "2018-03-25T00:07:40.392Z",
+		"timestamp": "2018-03-20T10:07:40.393Z",
+		"updated": "2018-03-20T10:07:40.393Z",
+		"version": 0,
+		"activation_key": "39",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 249,
+	"fields": {
+		"seller": 346,
+		"name": "test_user_39auction",
+		"description": "test_user_39description",
+		"minprice": "39.10",
+		"deadline": "2018-03-25T01:07:40.400Z",
+		"timestamp": "2018-03-20T10:07:40.401Z",
+		"updated": "2018-03-20T10:07:40.401Z",
+		"version": 0,
+		"activation_key": "40",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 250,
+	"fields": {
+		"seller": 347,
+		"name": "test_user_40auction",
+		"description": "test_user_40description",
+		"minprice": "40.10",
+		"deadline": "2018-03-25T02:07:40.407Z",
+		"timestamp": "2018-03-20T10:07:40.408Z",
+		"updated": "2018-03-20T10:07:40.408Z",
+		"version": 0,
+		"activation_key": "41",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 251,
+	"fields": {
+		"seller": 348,
+		"name": "test_user_41auction",
+		"description": "test_user_41description",
+		"minprice": "41.10",
+		"deadline": "2018-03-25T03:07:40.415Z",
+		"timestamp": "2018-03-20T10:07:40.416Z",
+		"updated": "2018-03-20T10:07:40.416Z",
+		"version": 0,
+		"activation_key": "42",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 252,
+	"fields": {
+		"seller": 349,
+		"name": "test_user_42auction",
+		"description": "test_user_42description",
+		"minprice": "42.10",
+		"deadline": "2018-03-25T04:07:40.423Z",
+		"timestamp": "2018-03-20T10:07:40.424Z",
+		"updated": "2018-03-20T10:07:40.424Z",
+		"version": 0,
+		"activation_key": "43",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 253,
+	"fields": {
+		"seller": 350,
+		"name": "test_user_43auction",
+		"description": "test_user_43description",
+		"minprice": "43.10",
+		"deadline": "2018-03-25T05:07:40.431Z",
+		"timestamp": "2018-03-20T10:07:40.432Z",
+		"updated": "2018-03-20T10:07:40.432Z",
+		"version": 0,
+		"activation_key": "44",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 254,
+	"fields": {
+		"seller": 351,
+		"name": "test_user_44auction",
+		"description": "test_user_44description",
+		"minprice": "44.10",
+		"deadline": "2018-03-25T06:07:40.440Z",
+		"timestamp": "2018-03-20T10:07:40.441Z",
+		"updated": "2018-03-20T10:07:40.441Z",
+		"version": 0,
+		"activation_key": "45",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 255,
+	"fields": {
+		"seller": 352,
+		"name": "test_user_45auction",
+		"description": "test_user_45description",
+		"minprice": "45.10",
+		"deadline": "2018-03-25T07:07:40.448Z",
+		"timestamp": "2018-03-20T10:07:40.449Z",
+		"updated": "2018-03-20T10:07:40.449Z",
+		"version": 0,
+		"activation_key": "46",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 256,
+	"fields": {
+		"seller": 353,
+		"name": "test_user_46auction",
+		"description": "test_user_46description",
+		"minprice": "46.10",
+		"deadline": "2018-03-25T08:07:40.456Z",
+		"timestamp": "2018-03-20T10:07:40.458Z",
+		"updated": "2018-03-20T10:07:40.458Z",
+		"version": 0,
+		"activation_key": "47",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 257,
+	"fields": {
+		"seller": 354,
+		"name": "test_user_47auction",
+		"description": "test_user_47description",
+		"minprice": "47.10",
+		"deadline": "2018-03-25T09:07:40.465Z",
+		"timestamp": "2018-03-20T10:07:40.466Z",
+		"updated": "2018-03-20T10:07:40.466Z",
+		"version": 0,
+		"activation_key": "48",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 258,
+	"fields": {
+		"seller": 355,
+		"name": "test_user_48auction",
+		"description": "test_user_48description",
+		"minprice": "48.10",
+		"deadline": "2018-03-25T10:07:40.473Z",
+		"timestamp": "2018-03-20T10:07:40.474Z",
+		"updated": "2018-03-20T10:07:40.474Z",
+		"version": 0,
+		"activation_key": "49",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}, {
+	"model": "auctions.auction",
+	"pk": 259,
+	"fields": {
+		"seller": 356,
+		"name": "test_user_49auction",
+		"description": "test_user_49description",
+		"minprice": "49.10",
+		"deadline": "2018-03-25T11:07:40.480Z",
+		"timestamp": "2018-03-20T10:07:40.481Z",
+		"updated": "2018-03-20T10:07:40.481Z",
+		"version": 0,
+		"activation_key": "50",
+		"activated": true,
+		"banned": false,
+		"due": false,
+		"adjudicated": false
+	}
+}]

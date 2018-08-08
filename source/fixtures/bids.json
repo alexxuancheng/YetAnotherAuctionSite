@@ -1,0 +1,100 @@
+[{
+	"model": "bids.bid",
+	"pk": 63,
+	"fields": {
+		"bidder": 1,
+		"auction": 5,
+		"bid": "3.10",
+		"timestamp": "2018-03-20T08:38:54.247Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 64,
+	"fields": {
+		"bidder": 310,
+		"auction": 220,
+		"bid": "10.20",
+		"timestamp": "2018-03-20T10:17:00.270Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 65,
+	"fields": {
+		"bidder": 311,
+		"auction": 221,
+		"bid": "11.20",
+		"timestamp": "2018-03-20T10:17:00.275Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 66,
+	"fields": {
+		"bidder": 312,
+		"auction": 222,
+		"bid": "12.20",
+		"timestamp": "2018-03-20T10:17:00.280Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 67,
+	"fields": {
+		"bidder": 313,
+		"auction": 223,
+		"bid": "13.20",
+		"timestamp": "2018-03-20T10:17:00.286Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 68,
+	"fields": {
+		"bidder": 314,
+		"auction": 224,
+		"bid": "14.20",
+		"timestamp": "2018-03-20T10:17:00.290Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 69,
+	"fields": {
+		"bidder": 315,
+		"auction": 225,
+		"bid": "15.20",
+		"timestamp": "2018-03-20T10:17:00.294Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 70,
+	"fields": {
+		"bidder": 316,
+		"auction": 226,
+		"bid": "16.20",
+		"timestamp": "2018-03-20T10:17:00.299Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 71,
+	"fields": {
+		"bidder": 317,
+		"auction": 227,
+		"bid": "17.20",
+		"timestamp": "2018-03-20T10:17:00.304Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 72,
+	"fields": {
+		"bidder": 318,
+		"auction": 228,
+		"bid": "18.20",
+		"timestamp": "2018-03-20T10:17:00.310Z"
+	}
+}, {
+	"model": "bids.bid",
+	"pk": 73,
+	"fields": {
+		"bidder": 319,
+		"auction": 229,
+		"bid": "19.20",
+		"timestamp": "2018-03-20T10:17:00.314Z"
+	}
+}]

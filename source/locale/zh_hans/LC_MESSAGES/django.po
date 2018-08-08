@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-19 12:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: accounts/templates/account.html:5
+msgid "Update Account"
+msgstr "更新账户"
+
+#: accounts/templates/account.html:8
+msgid "Change Email"
+msgstr "修改邮箱"
+
+#: accounts/templates/account.html:9
+msgid "Change Password"
+msgstr "修改密码"
+
+#: auctions/templates/auctions/auction_banned_list.html:6
+msgid "Banned Auctions"
+msgstr "被取消的拍卖"
+
+#: auctions/templates/auctions/auction_list.html:9
+msgid "Search"
+msgstr "搜索"
+
+#: auctions/templates/auctions/my_auction_create.html:6
+#: auctions/templates/auctions/my_auction_list.html:8
+#: templates/snippets/nav.html:10
+msgid "CreateAuction"
+msgstr "发布拍卖"
+
+#: auctions/templates/auctions/my_auction_create.html:27
+msgid "Save"
+msgstr "保存"
+
+#: auctions/templates/auctions/my_auction_create.html:29
+msgid ""
+"After save the auction, please go to your email to confirm to activate this "
+"auction."
+msgstr "保存之后，请去邮箱确认激活此次拍卖。"
+
+#: auctions/templates/auctions/my_auction_list.html:6
+#: templates/snippets/nav.html:9
+msgid "MyAuctions"
+msgstr "我的拍卖品"
+
+#: auctions/templates/auctions/my_auction_update.html:7
+msgid "Description"
+msgstr "描述"
+
+#: auctions/templates/auctions/my_auction_update.html:8
+msgid "Starting Bid"
+msgstr "起拍价"
+
+#: auctions/templates/auctions/my_auction_update.html:9
+msgid "Bid Times"
+msgstr "竞拍次数"
+
+#: auctions/templates/auctions/my_auction_update.html:10
+msgid "Deadline"
+msgstr "截止时间"
+
+#: auctions/templates/auctions/my_auction_update.html:13
+msgid "Update Auction Description"
+msgstr "更新拍卖的描述"
+
+#: auctions/templates/auctions/my_auction_update.html:16
+msgid "Update"
+msgstr "更新"
+
+#: auctions/templates/auctions/my_auction_update.html:19
+msgid "Last Updated"
+msgstr "上次更新时间"
+
+#: bids/templates/bids/my_bids_list.html:8 templates/snippets/nav.html:8
+msgid "MyBids"
+msgstr "我的竞拍"
+
+#: templates/snippets/nav.html:5
+msgid "Home"
+msgstr "首页"
+
+#: templates/snippets/nav.html:11
+msgid "Account"
+msgstr "账户"
+
+#: templates/snippets/nav.html:15
+msgid "Banned"
+msgstr "被取消的拍卖"
+
+#: templates/snippets/nav.html:20
+msgid "Login"
+msgstr "登陆"
+
+#: templates/snippets/nav.html:21
+msgid "Register"
+msgstr "注册"
+
+#: templates/snippets/nav.html:25
+msgid "Logout"
+msgstr "退出"
+
+#: yaas5_project/settings/base.py:137
+msgid "English"
+msgstr ""
+
+#: yaas5_project/settings/base.py:138
+msgid "Chinese"
+msgstr ""
+
+#: yaas5_project/settings/base.py:139
+msgid "Finnish"
+msgstr ""
