@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Update Account</h1>
+Username: {{ request.user }}<br/>
+Email: {{ request.user.email }}<br/>
+<a href="{% url 'emailupdate' pk=request.user.pk %}">Change Email</a><br/>
+<a href="{% url 'passwordupdate' pk=request.user.pk %}">Change Password</a>
+{% endblock %}

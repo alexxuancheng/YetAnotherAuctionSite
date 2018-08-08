@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+
+<h1>{% trans 'Update Account' %}</h1>
+Username: {{ request.user }}<br/>
+Email: {{ request.user.email }}<br/>
+<a href="{% url 'emailupdate' pk=request.user.pk %}">{% trans 'Change Email' %}</a><br/>
+<a href="{% url 'passwordupdate' pk=request.user.pk %}">{% trans 'Change Password' %}</a>
+{% endblock %}
